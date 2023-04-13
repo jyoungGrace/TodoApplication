@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TodoController {
 	@GetMapping("/")
 	public  String hello(){
-		return "Todo Application!";
+		return "Hello!";
 	}
 }
